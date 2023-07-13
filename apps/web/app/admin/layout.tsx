@@ -2,7 +2,7 @@
 import "../../css/global.css";
 import { useSession } from "next-auth/react";
 import useSWR from "swr";
-import { Car } from "@prisma/client";
+// import { Car } from "@prisma/client";
 import { ErrorBoundary } from "react-error-boundary";
 
 export default function RootLayout({
@@ -32,7 +32,7 @@ const CarsList = () => {
     data: carsData,
     isLoading,
     error,
-  } = useSWR<Car[]>("/", async () => {
+  } = useSWR<any>("/", async () => {
     const req = await fetch("http://localhost:4000/cars/askjfasdkjadkf", {
       method: "GET",
       headers: {
