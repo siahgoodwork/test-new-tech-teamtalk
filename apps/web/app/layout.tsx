@@ -14,7 +14,7 @@ export default function RootLayout({
     <html>
       <body className="bg-slate-100">
         <SessionProvider session={session}>
-          <div className="min-h-screen">{children}</div>
+          <div className="min-h-screen box-border">{children}</div>
         </SessionProvider>
       </body>
     </html>
