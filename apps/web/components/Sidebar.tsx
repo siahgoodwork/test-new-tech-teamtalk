@@ -2,7 +2,7 @@
 
 import { SidebarButton } from "./SidebarButton";
 
-export function Sidebar() {
+export function Sidebar({ active }: { active: string }) {
   return (
     <div className="flex flex-col bg-p-y-100 min-w-[280px] p-6 gap-8">
       <img
