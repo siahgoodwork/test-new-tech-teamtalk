@@ -15,6 +15,7 @@ export function Sidebar({ active }: { active: string }) {
       <div className="flex justify-between flex-col gap-8 h-full">
         <div>
           <SidebarButton
+            isActive={active === "session"}
             icon={
               <img
                 className="w-icon-lg"
