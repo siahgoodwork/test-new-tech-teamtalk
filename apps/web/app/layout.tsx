@@ -11,8 +11,8 @@ export default function RootLayout({
   session: Session;
 }) {
   return (
-    <html>
-      <body className="bg-slate-100">
+    <html lang="en" className="bg-base">
+      <body>
         <SessionProvider session={session}>
           <div className="min-h-screen">{children}</div>
         </SessionProvider>
@@ -20,3 +20,5 @@ export default function RootLayout({
     </html>
   );
 }
+
+// className="bg-extend-colors-bg"
