@@ -27,13 +27,6 @@ module.exports = {
         albertsans: ["Albert Sans", "sans-serif"],
       },
 
-      fontWeight: {
-        extralight: 200,
-        400: 400,
-        500: 500,
-        600: 600,
-      },
-
       colors: {
         "test-pink": "pink",
         "test-blue": "lightblue",
@@ -65,12 +58,6 @@ module.exports = {
 
       backgroundImage: {
         "wave-pattern": "url('/bg-soundwave.png')",
-      },
-
-      fontSize: {
-        h4: "32px",
-        h6: "24px",
-        sm: "14px",
       },
 
       width: {
