@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+
 "use client";
 import { Header } from "ui";
 
@@ -22,7 +24,7 @@ export default function Page() {
               className="rounded-t-2xl"
             />
             <div className="bg-white p-8 rounded-b-2xl min-h-[150px]">
-              <h6 className="pb-2">Welcome new teammates</h6>
+              <h6 className="pb-6">Welcome new teammates</h6>
               <p>
                 Help new teammates get to know the rest of the team through fun
                 and meaningful questions.
@@ -39,7 +41,7 @@ export default function Page() {
             <div className="bg-white p-8 rounded-b-2xl">
               <h6 className="text-h6 pb-2 ">Work better together</h6>
               <p className="">
-                Learn about your teammates' working styles, communication
+                Learn about your teammates&apos; working styles, communication
                 styles, and how to motivate and appreciate each other.
               </p>
             </div>

@@ -20,3 +20,16 @@ body {
   font-family: Albert Sans, Helvetica, sans-serif;
   font-weight: 400;
 }
+
+@layer components {
+  .btn-primary {
+    @apply font-bold text-white bg-p-g-base p-4 rounded-full hover:bg-p-g-900;
+  }
+
+  .btn-ghost-primary {
+    @apply font-bold hover:text-grey-500;
+  }
+  .btn-ghost-secondary {
+    @apply font-bold text-p-g-base hover:text-p-g-900;
+  }
+}

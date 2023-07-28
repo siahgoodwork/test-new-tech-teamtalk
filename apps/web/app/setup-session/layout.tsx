@@ -13,7 +13,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <SessionProvider session={session}>
-          <div className="min-h-screen p-8">{children}</div>
+          <div className="h-screen p-8">{children}</div>
         </SessionProvider>
       </body>
     </html>

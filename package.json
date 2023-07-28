@@ -14,5 +14,8 @@
     "turbo": "latest"
   },
   "packageManager": "pnpm@7.15.0",
-  "name": "teamtalk-tech-prep"
+  "name": "teamtalk-tech-prep",
+  "dependencies": {
+    "next": "13.4.13-canary.4"
+  }
 }
